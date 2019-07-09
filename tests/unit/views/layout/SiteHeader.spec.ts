@@ -3,7 +3,7 @@ import SiteHeader from '@/views/layout/SiteHeader.vue';
 
 const wrapper = shallowMount(SiteHeader);
 
-describe(`${wrapper.name()}`, () => {
+describe(wrapper.name(), () => {
   test('it is a <header> element', () => {
     expect(wrapper.element.nodeName).toBe('HEADER');
   });

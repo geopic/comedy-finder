@@ -5,7 +5,7 @@ const wrapper = shallowMount(SiteMain, {
   stubs: ['router-view']
 });
 
-describe(`${wrapper.name()}`, () => {
+describe(wrapper.name(), () => {
   test('it is a <main> element', () => {
     expect(wrapper.element.nodeName).toBe('MAIN');
   });

@@ -1,5 +1,9 @@
 <template>
-  <div class="home">This is home</div>
+  <div id="home">
+    <div id="map">
+      <!-- Map goes here -->
+    </div>
+  </div>
 </template>
 
 <script lang="ts">

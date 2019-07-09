@@ -3,7 +3,7 @@ import SiteFooter from '@/views/layout/SiteFooter.vue';
 
 const wrapper = shallowMount(SiteFooter);
 
-describe(`${wrapper.name()}`, () => {
+describe(wrapper.name(), () => {
   test('it is a <footer> element', () => {
     expect(wrapper.element.nodeName).toBe('FOOTER');
   });
