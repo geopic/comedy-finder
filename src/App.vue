@@ -1,8 +1,8 @@
 <template>
   <div id="app">
-    <SiteHeader/>
-    <SiteMain/>
-    <SiteFooter/>
+    <SiteHeader />
+    <SiteMain />
+    <SiteFooter />
   </div>
 </template>
 
@@ -25,4 +25,18 @@ export default class App extends Vue {}
 
 
 <style lang="scss">
+#app {
+  background-color: #eee;
+  height: 100vh;
+}
+
+@media all and (min-width: $medquery-min-width-05) {
+  #app {
+    border: 1px solid forestgreen;
+    border-bottom: 0px;
+    border-top: 0px;
+    margin: 0px auto;
+    max-width: $medquery-min-width-05;
+  }
+}
 </style>
