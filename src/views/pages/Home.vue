@@ -3,6 +3,9 @@
     <div id="map">
       <!-- Map goes here -->
     </div>
+    <div id="calendar">
+      <!-- Calendar goes here -->
+    </div>
   </div>
 </template>
 
