@@ -11,4 +11,8 @@ describe(wrapper.name(), () => {
   test('it contains an element with id "site-title"', () => {
     expect(wrapper.contains('#site-title')).toBe(true);
   });
+
+  test('it contains an element with id "site-tagline"', () => {
+    expect(wrapper.contains('#site-tagline')).toBe(true);
+  });
 });
