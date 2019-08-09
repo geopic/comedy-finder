@@ -26,6 +26,7 @@ export default class App extends Vue {}
 
 <style lang="scss">
 #app {
+  align-items: stretch;
   background-color: #eee;
   display: grid;
   grid-template-rows: auto 1fr auto;
