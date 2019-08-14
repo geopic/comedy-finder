@@ -1,8 +1,8 @@
 <template>
   <footer>
     <div id="site-credits">
-      &copy; 2019
-      <a href="https://twitter.com/bobpicksby123">George Pickering</a>
+      Website developed by
+      <a href="https://github.com/tedjenkins">George Pickering</a>
     </div>
   </footer>
 </template>
@@ -16,7 +16,15 @@ export default class SiteFooter extends Vue {}
 
 <style lang="scss" scoped>
 footer {
+  font-size: 15px;
   padding: 10px;
-  text-align: right;
+  text-align: center;
+}
+
+@media all and (min-width: $medquery-min-width-03) {
+  footer {
+    font-size: 16px;
+    text-align: right;
+  }
 }
 </style>
