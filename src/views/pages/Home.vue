@@ -4,9 +4,6 @@
       <l-tile-layer :url="url"></l-tile-layer>
       <l-marker :lat-lng="marker"></l-marker>
     </l-map>
-    <div id="calendar">
-      <!-- Calendar goes here -->
-    </div>
   </div>
 </template>
 

@@ -10,8 +10,24 @@ export default new Router({
   routes: [
     {
       path: '/',
-      name: 'home',
+      redirect: '/map'
+    },
+    {
+      path: '/map',
+      name: 'map',
       component: Home
+    },
+    {
+      path: '/calendar',
+      name: 'calendar',
+      component: () =>
+        import(/* webpackChunkName: "calendar" */ './views/pages/Calendar.vue')
+    },
+    {
+      path: '/help',
+      name: 'Help',
+      component: () =>
+        import(/* webpackChunkName: "help" */ './views/pages/Help.vue')
     }
   ]
 });

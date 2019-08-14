@@ -2,6 +2,11 @@
   <header>
     <div id="site-title">{{ title }} Manchester</div>
     <div id="site-tagline">A map and calendar of all recurring comedy events in Manchester.</div>
+    <nav>
+      <router-link to="/map">Map</router-link>
+      <router-link to="/calendar">Calendar</router-link>
+      <router-link to="/help">Help Out</router-link>
+    </nav>
   </header>
 </template>
 
@@ -27,6 +32,16 @@ header {
 
   #site-tagline {
     font-size: 14px;
+  }
+
+  nav {
+    align-items: center;
+    display: flex;
+    justify-content: space-evenly;
+
+    & > * {
+      padding: 5px;
+    }
   }
 }
 
