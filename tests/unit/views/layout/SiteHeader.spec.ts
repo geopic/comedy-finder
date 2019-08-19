@@ -1,7 +1,9 @@
 import { shallowMount } from '@vue/test-utils';
 import SiteHeader from '@/views/layout/SiteHeader.vue';
 
-const wrapper = shallowMount(SiteHeader);
+const wrapper = shallowMount(SiteHeader, {
+  stubs: ['router-link']
+});
 
 describe(wrapper.name(), () => {
   test('it is a <header> element', () => {

@@ -1,7 +1,7 @@
 import { shallowMount } from '@vue/test-utils';
-import Home from '@/views/pages/Home.vue';
+import Calendar from '@/views/pages/Calendar.vue';
 
-const wrapper = shallowMount(Home);
+const wrapper = shallowMount(Calendar);
 
 describe(wrapper.name(), () => {
   test('its id matches its name in lowercase', () => {
