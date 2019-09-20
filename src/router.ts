@@ -18,12 +18,6 @@ export default new Router({
       component: Home
     },
     {
-      path: '/calendar',
-      name: 'calendar',
-      component: () =>
-        import(/* webpackChunkName: "calendar" */ './views/pages/Calendar.vue')
-    },
-    {
       path: '/help',
       name: 'Help',
       component: () =>

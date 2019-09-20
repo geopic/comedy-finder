@@ -1,10 +1,9 @@
 <template>
   <header>
     <div id="site-title">{{ title }} Manchester</div>
-    <div id="site-tagline">A map and calendar of all recurring comedy events in Manchester.</div>
+    <div id="site-tagline">A map of all recurring comedy events in Manchester.</div>
     <nav>
       <router-link to="/map">Map</router-link>
-      <router-link to="/calendar">Calendar</router-link>
       <router-link to="/help">Help Out</router-link>
     </nav>
   </header>
