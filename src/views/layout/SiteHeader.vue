@@ -1,3 +1,11 @@
+<!--
+/**
+ * src/views/layout/SiteHeader.vue
+ * Global header of the site.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+-->
+
 <template>
   <header>
     <div id="site-title">{{ title }} Manchester</div>

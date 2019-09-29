@@ -1,3 +1,11 @@
+<!--
+/**
+ * src/App.vue
+ * Central App.vue file, familiar to anyone who has used Vue before.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+-->
+
 <template>
   <div id="app">
     <SiteHeader />

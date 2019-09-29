@@ -1,3 +1,11 @@
+<!--
+/**
+ * src/views/layout/SiteFooter.vue
+ * Global footer of the site.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+-->
+
 <template>
   <footer>
     <div id="site-credits">

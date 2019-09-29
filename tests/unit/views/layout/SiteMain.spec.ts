@@ -1,3 +1,9 @@
+/**
+ * tests/unit/views/layout/SiteMain.spec.ts
+ * Unit tests for 'SiteMain' layout component.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+
 import { shallowMount } from '@vue/test-utils';
 import SiteMain from '@/views/layout/SiteMain.vue';
 

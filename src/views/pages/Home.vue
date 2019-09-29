@@ -1,3 +1,11 @@
+<!--
+/**
+ * src/views/pages/Home.vue
+ * Home page ('/') of the site.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+-->
+
 <template>
   <div id="home">
     <l-map id="map-display" :center="center" :zoom="zoom">

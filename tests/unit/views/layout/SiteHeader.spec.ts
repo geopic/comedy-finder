@@ -1,3 +1,9 @@
+/**
+ * tests/unit/views/layout/SiteHeader.spec.ts
+ * Unit tests for 'SiteHeader' layout component.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
+
 import { shallowMount } from '@vue/test-utils';
 import SiteHeader from '@/views/layout/SiteHeader.vue';
 
