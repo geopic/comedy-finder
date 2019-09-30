@@ -1,6 +1,8 @@
-// * --------------------------------
-// * Helper functions and properties.
-// * --------------------------------
+/**
+ * src/utils.ts
+ * Helper functions and properties.
+ * © George Pickering 2019, https://github.com/tedjenkins
+ */
 
 // Global site title.
 const siteName = 'ComedyFinder';
